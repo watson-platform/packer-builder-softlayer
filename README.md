@@ -8,10 +8,10 @@ The builder does not manage images. Once it creates an image, it is up to you to
 
 Download the Packer binaries [here](https://www.packer.io/downloads.html) or build Packer from source as described [here](https://github.com/mitchellh/packer#developing-packer).
 
-Next, clone this repository into `$GOPATH/src/github.com/leonidlm/packer-builder-softlayer`. Then build the packer-softlayer-builder binary into the same folder as the packer binaries:
+Next, clone this repository into `$GOPATH/src/github.com/watson-platform/packer-builder-softlayer`. Then build the packer-softlayer-builder binary into the same folder as the packer binaries:
 
 ```
-cd $GOPATH/src/github.com/leonidlm/packer-builder-softlayer
+cd $GOPATH/src/github.com/watson-platform/packer-builder-softlayer
 go build -o /usr/local/packer/packer-builder-softlayer main.go
 ```
 
@@ -104,7 +104,7 @@ As already stated above, a good way of reviewing the available options is by ins
 ## Contribute
 
 New contributors are always welcome!
-When in doubt please feel free to ask questions, just [Create an issue](https://github.com/leonidlm/packer-builder-softlayer/issues/new) with your enquiries.
+When in doubt please feel free to ask questions, just [Create an issue](https://github.com/watson-platform/packer-builder-softlayer/issues/new) with your enquiries.
 
 ### Development Environment
 
