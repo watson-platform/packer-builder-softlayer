@@ -1,0 +1,79 @@
+hash: da7d9a68789d36c7bdebca93ff2ea79fd8b9c26b2c445e75f13e9c9472a89dc5
+updated: 2016-10-03T14:59:28.754276327-04:00
+imports:
+- name: github.com/dylanmei/iso8601
+  version: 2075bf119b58e5576c6ed9f867b8f3d17f2e54d4
+- name: github.com/dylanmei/winrmtest
+  version: 025617847eb2cf9bd1d851bc3b22ed28e6245ce5
+- name: github.com/hashicorp/errwrap
+  version: 7554cd9344cec97297fa6649b055a8c98c2a1e55
+- name: github.com/hashicorp/go-msgpack
+  version: fa3f63826f7c23912c15263591e65d54d080b458
+  subpackages:
+  - codec
+- name: github.com/hashicorp/go-multierror
+  version: 8c5f0ad9360406a3807ce7de6bc73269a91a6e51
+- name: github.com/hashicorp/go-version
+  version: deeb027c13a95d56c7585df3fe29207208c6706e
+- name: github.com/hashicorp/yamux
+  version: d1caa6c97c9fc1cc9e83bbe34d0603f9ff0ce8bd
+- name: github.com/masterzen/simplexml
+  version: 4572e39b1ab9fe03ee513ce6fc7e289e98482190
+  subpackages:
+  - dom
+- name: github.com/masterzen/winrm
+  version: 4cfdf8d41004d12733f3e0e694983e913b463b0f
+  subpackages:
+  - soap
+  - winrm
+- name: github.com/masterzen/xmlpath
+  version: 13f4951698adc0fa9c1dda3e275d489a24201161
+- name: github.com/mitchellh/go-fs
+  version: 4f9d2cb031e44bef60d0c00ccb3f31f68867e85e
+  subpackages:
+  - fat
+- name: github.com/mitchellh/iochan
+  version: 87b45ffd0e9581375c491fef3d32130bb15c5bd7
+- name: github.com/mitchellh/mapstructure
+  version: ca63d7c062ee3c9f34db231e352b60012b4fd0c1
+- name: github.com/mitchellh/multistep
+  version: 162146fc57112954184d90266f4733e900ed05a5
+- name: github.com/mitchellh/packer
+  version: f8f7b7a34c1be06058f5aca23a51247db12cdbc5
+  subpackages:
+  - common
+  - common/ssh
+  - common/uuid
+  - communicator/ssh
+  - communicator/winrm
+  - helper/communicator
+  - helper/config
+  - packer
+  - packer/plugin
+  - packer/rpc
+  - template
+  - template/interpolate
+- name: github.com/mitchellh/reflectwalk
+  version: 92573fe8d000a145bfebc03a16bc22b34945867f
+- name: github.com/nu7hatch/gouuid
+  version: 179d4d0c4d8d407a32af483c2354df1d2c91e6c3
+- name: github.com/packer-community/winrmcp
+  version: edcdaf386f9ed1b7e6a2cf826d6a4a2963be3aa5
+  subpackages:
+  - winrmcp
+- name: github.com/satori/go.uuid
+  version: b061729afc07e77a8aa4fad0a2fd840958f1942a
+- name: github.com/tobyjaffey/gosshold
+  version: 967f5228aaafe57f682f4b22b44112f0a3715d1d
+  subpackages:
+  - ssh
+  - ssh
+- name: golang.org/x/crypto
+  version: 84e98f45760e87786b7f24603b8166a6fa09811d
+  subpackages:
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+  - ssh
+  - ssh/agent
+testImports: []
