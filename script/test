@@ -6,7 +6,7 @@ set -euo pipefail
 source "$(dirname "$0")/utilities.bash"
 
 header "Tests"
-go test -v $(glide novendor)
+go test $(glide novendor)
 
 header "Linter"
 gometalinter --deadline=1m --vendored-linters --vendor --disable=gotype
