@@ -108,7 +108,7 @@ func (self *Builder) Prepare(raws ...interface{}) (parms []string, retErr error)
 		self.config.InstanceNetworkSpeed = 10
 	}
 
-	if self.config.InstanceDiskCapacities == nil {
+	if len(self.config.InstanceDiskCapacities) == 0 {
 		self.config.InstanceDiskCapacities = []int{25}
 	}
 
