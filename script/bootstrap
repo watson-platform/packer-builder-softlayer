@@ -12,7 +12,7 @@ go get "$@" -v \
   github.com/wadey/gocovmerge \
   github.com/Masterminds/glide
 
-header "Installing glide deps"
+header "Installing dependencies with Glide"
 glide install --strip-vendor
 header "Installing gometalinter tools"
 gometalinter --install
