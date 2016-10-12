@@ -11,6 +11,4 @@ go test -v $(glide novendor)
 header "Linter"
 gometalinter --deadline=1m --vendored-linters --vendor --disable=gotype
 
-header "Flint"
-flint --skip-changelog --skip-code-of-conduct
 # vim: set ft=sh :
