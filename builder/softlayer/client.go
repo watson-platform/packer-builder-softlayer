@@ -249,14 +249,14 @@ func (self SoftlayerClient) CreateInstance(instance InstanceType) (map[string]in
 		instanceRequest.OsReferenceCode = instance.BaseOsCode
 
 		for index, element := range instance.DiskCapacities {
-			var deviceIndex string // device 1 is reserved for swap, so we need to skip that
+			var device string // device 1 is reserved for swap, so we need to skip that
 			if (index == 0) {
-			  deviceIndex = "0"
+			  device= "0"
 			} else {
-			  deviceIndex = strconv.Itoa(index + 1)
+			  device= strconv.Itoa(index + 1)
 			}
 			instanceRequest.BlockDevices = append(instanceRequest.BlockDevices, &BlockDevice{
-				Device: deviceIndex,
+				Device: device,
 				DiskImage: &DiskImage{
 					Capacity: element,
 				}})
