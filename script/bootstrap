@@ -10,7 +10,7 @@ go get "$@" -v \
   github.com/alecthomas/gometalinter \
   github.com/mitchellh/gox \
   github.com/wadey/gocovmerge \
-  github.com/pengwynn/flint
+  github.com/pengwynn/flint \
   github.com/Masterminds/glide
 
 header "Installing glide deps"
