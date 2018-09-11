@@ -50,7 +50,7 @@ The example below is fully functional and will create a basic centos 6 image wit
     "instance_cpu": 1,
     "instance_memory": 1024,
     "instance_network_speed": 10,
-    "instance_disk_capacity": 25,
+    "instance_disk_capacities": 25,
     "ssh_port": 22,
     "ssh_timeout": "15m",
     "instance_state_timeout": "25m"
