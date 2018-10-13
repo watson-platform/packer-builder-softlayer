@@ -155,12 +155,6 @@ func (self *Builder) Prepare(raws ...interface{}) (parms []string, retErr error)
 			errs, errors.New("please specify only one of base_image_id or base_os_code"))
 	}
 
-	if self.config.BaseImageId != "" && self.config.Comm.SSHPrivateKey == "" {
-		errs = packer.MultiErrorAppend(
-			errs, errors.New("when using base_image_id, you must specify ssh_private_key_file "+
-				"since automatic ssh key config for custom images isn't supported by SoftLayer API"))
-	}
-
 	stateTimeout, err := time.ParseDuration(self.config.RawStateTimeout)
 	if err != nil {
 		errs = packer.MultiErrorAppend(
