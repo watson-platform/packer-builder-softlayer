@@ -3,15 +3,20 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.9
+    environment:
+      RELEASE_NAME: packer-builder-softlayer
     steps:
       - checkout
       - run: ./script/bootstrap -u
+      - run: ./script/build all
   test:
     docker:
       - image: circleci/golang:1.9
     steps:
       - checkout
       - run: ./script/test
+    requires:
+    - build
 workflows:
   version: 2
   build_and_test:

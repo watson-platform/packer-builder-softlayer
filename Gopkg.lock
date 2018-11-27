@@ -2,125 +2,203 @@
 
 
 [[projects]]
+  digest = "1:ba4505a4af8b8f387942eeb1c77439da6f20f6e5409b4c40ed66a49d2145fbf3"
   name = "github.com/dylanmei/iso8601"
   packages = ["."]
+  pruneopts = ""
   revision = "2075bf119b58e5576c6ed9f867b8f3d17f2e54d4"
   version = "v0.1.0"
 
 [[projects]]
+  digest = "1:ab6201b5d066331b1f1334164cbd300afa5d7d305de88708a0609c4525ce99bc"
   name = "github.com/dylanmei/winrmtest"
   packages = ["."]
+  pruneopts = ""
   revision = "025617847eb2cf9bd1d851bc3b22ed28e6245ce5"
 
 [[projects]]
   branch = "master"
+  digest = "1:304c322b62533a48ac052ffee80f67087fce1bc07186cd4e610a1b0e77765836"
   name = "github.com/hashicorp/errwrap"
   packages = ["."]
+  pruneopts = ""
   revision = "7554cd9344cec97297fa6649b055a8c98c2a1e55"
 
 [[projects]]
+  digest = "1:2eec3384eaeed0ce9282113b0745f3ebecc7dcd6fc24db4c8b0274436483bf79"
   name = "github.com/hashicorp/go-multierror"
   packages = ["."]
+  pruneopts = ""
   revision = "d30f09973e19c1dfcd120b2d9c4f168e68d6b5d5"
 
 [[projects]]
+  digest = "1:f96a8373c145206d1c8ccdbe92d5c613a900de82dcca783d644bc809ad8a0491"
   name = "github.com/hashicorp/go-version"
   packages = ["."]
+  pruneopts = ""
   revision = "7e3c02b30806fa5779d3bdfc152ce4c6f40e7b38"
 
 [[projects]]
+  digest = "1:ba1dd432ed91be3272c93527e2db345a8324decc3eb18db19d10f9f9c3cf2757"
   name = "github.com/hashicorp/yamux"
   packages = ["."]
+  pruneopts = ""
   revision = "df949784da9ed028ee76df44652e42d37a09d7e4"
 
 [[projects]]
   branch = "master"
+  digest = "1:abde445510ed7b23086372c0bfdb607091e8118ca94ee853153a2d7709d65087"
   name = "github.com/kr/fs"
   packages = ["."]
+  pruneopts = ""
   revision = "2788f0dbd16903de03cb8186e5c7d97b69ad387b"
 
 [[projects]]
+  digest = "1:c925521bbd2695b60509bbfefd5188d6fd2e7a80931c6b52b7d5831bcb6c4a8e"
   name = "github.com/masterzen/simplexml"
   packages = ["dom"]
+  pruneopts = ""
   revision = "95ba30457eb1121fa27753627c774c7cd4e90083"
 
 [[projects]]
+  digest = "1:884afa45e1ec7d439c84c434381e4256ced8000ad5eb7a6fa383f44b30131494"
   name = "github.com/masterzen/winrm"
-  packages = ["soap","winrm"]
+  packages = [
+    "soap",
+    "winrm",
+  ]
+  pruneopts = ""
   revision = "54ea5d01478cfc2afccec1504bd0dfcd8c260cfa"
 
 [[projects]]
   branch = "master"
+  digest = "1:8c0ea34a81a6352110621cb1a33d840e523218c2340cd1ffab22d5d9e3c3fc63"
   name = "github.com/masterzen/xmlpath"
   packages = ["."]
+  pruneopts = ""
   revision = "13f4951698adc0fa9c1dda3e275d489a24201161"
 
 [[projects]]
+  digest = "1:9a69623186818f7e4d252ed23f6692dd56b339da32ef9ce3a0a1176a5aa32618"
   name = "github.com/mitchellh/go-fs"
-  packages = [".","fat"]
+  packages = [
+    ".",
+    "fat",
+  ]
+  pruneopts = ""
   revision = "a34c1b9334e86165685a9449b782f20465eb8c69"
 
 [[projects]]
   branch = "master"
+  digest = "1:6b4b039f43644079036ee273cbdcda751528f162899bdb50dc1f17527a1f3e7c"
   name = "github.com/mitchellh/iochan"
   packages = ["."]
+  pruneopts = ""
   revision = "87b45ffd0e9581375c491fef3d32130bb15c5bd7"
 
 [[projects]]
+  digest = "1:ef2c25093248f6eb65ffd17f0ffe3b1c6f7c6a29deee72536e47a9be10db84fd"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
+  pruneopts = ""
   revision = "281073eb9eb092240d33ef253c404f1cca550309"
 
 [[projects]]
+  digest = "1:47331bff5d6b851a8f4ca0fd766030eec27b98ec6089fb19d2e9e2be1d9f4189"
   name = "github.com/mitchellh/multistep"
   packages = ["."]
+  pruneopts = ""
   revision = "162146fc57112954184d90266f4733e900ed05a5"
 
 [[projects]]
+  digest = "1:441ca18b7197702dc7db5f69910b810f2e179ee9889dc7777ff3bdf9acff6752"
   name = "github.com/mitchellh/packer"
-  packages = ["common","common/ssh","common/uuid","communicator/none","communicator/ssh","communicator/winrm","helper/communicator","helper/config","packer","packer/plugin","packer/rpc","template","template/interpolate"]
+  packages = [
+    "common",
+    "common/ssh",
+    "common/uuid",
+    "communicator/none",
+    "communicator/ssh",
+    "communicator/winrm",
+    "helper/communicator",
+    "helper/config",
+    "packer",
+    "packer/plugin",
+    "packer/rpc",
+    "template",
+    "template/interpolate",
+  ]
+  pruneopts = ""
   revision = "9e8a3fa3eab8263f3f976bdac51832fa4cf0e39f"
   version = "v0.10.2"
 
 [[projects]]
+  digest = "1:21d6e4860bc0c5bcaa40f0acc6da74982b70b9d3941c8f1b707e752a7568e3cf"
   name = "github.com/mitchellh/reflectwalk"
   packages = ["."]
+  pruneopts = ""
   revision = "eecf4c70c626c7cfbb95c90195bc34d386c74ac6"
 
 [[projects]]
   branch = "master"
+  digest = "1:55c48c9cfdf8bab6f4911f621616fbe223c0b72a6df9aab6b172ab7e5cfc6bd2"
   name = "github.com/nu7hatch/gouuid"
   packages = ["."]
+  pruneopts = ""
   revision = "179d4d0c4d8d407a32af483c2354df1d2c91e6c3"
 
 [[projects]]
+  digest = "1:5d1598d295c4e58cb84387c067786b52c3d17f8ce003283d84397870d2a1a59b"
   name = "github.com/packer-community/winrmcp"
   packages = ["winrmcp"]
+  pruneopts = ""
   revision = "f1bcf36a69fa2945e65dd099eee11b560fbd3346"
 
 [[projects]]
+  digest = "1:be1e8fbc448b6e1962ec5f7ac6b68efef7c4f02d8beb42d5b7a1f153a696f773"
   name = "github.com/pkg/sftp"
   packages = ["."]
+  pruneopts = ""
   revision = "e84cc8c755ca39b7b64f510fe1fffc1b51f210a5"
 
 [[projects]]
+  digest = "1:ffe807c5e4713d04da69c33e5f1657c6988605badc66608720f666b7e4c22464"
   name = "github.com/satori/go.uuid"
   packages = ["."]
+  pruneopts = ""
   revision = "d41af8bb6a7704f00bc3b7cba9355ae6a5a80048"
 
 [[projects]]
+  digest = "1:5d8ddc9f8d86710b0ff5bbb45c8ae5c21752f6a7ddc3d6203103d17c22ff6161"
   name = "github.com/ugorji/go"
   packages = ["codec"]
+  pruneopts = ""
   revision = "646ae4a518c1c3be0739df898118d9bccf993858"
 
 [[projects]]
+  digest = "1:d98b9646fd6635739cdd0555186de09dd895c2d1b899bd77d570237a44301117"
   name = "golang.org/x/crypto"
-  packages = ["curve25519","ssh","ssh/agent"]
+  packages = [
+    "curve25519",
+    "ssh",
+    "ssh/agent",
+  ]
+  pruneopts = ""
   revision = "1f22c0103821b9390939b6776727195525381532"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "7bf6a106789e6373408c7062c0c406da8ffdce088da9297e91b4dbc902413214"
+  input-imports = [
+    "github.com/mitchellh/multistep",
+    "github.com/mitchellh/packer/common",
+    "github.com/mitchellh/packer/common/uuid",
+    "github.com/mitchellh/packer/helper/communicator",
+    "github.com/mitchellh/packer/helper/config",
+    "github.com/mitchellh/packer/packer",
+    "github.com/mitchellh/packer/packer/plugin",
+    "github.com/mitchellh/packer/template/interpolate",
+    "golang.org/x/crypto/ssh",
+  ]
   solver-name = "gps-cdcl"
   solver-version = 1

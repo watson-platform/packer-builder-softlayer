@@ -11,6 +11,7 @@ import (
 	"github.com/mitchellh/packer/template/interpolate"
 	"log"
 	"os"
+	"strconv"
 	"time"
 )
 
@@ -81,7 +82,7 @@ func (self *Builder) Prepare(raws ...interface{}) (parms []string, retErr error)
 	}
 
 	if self.config.InstanceName == "" {
-		self.config.InstanceName = fmt.Sprintf("packer-softlayer-%s", time.Now().Unix())
+		self.config.InstanceName = fmt.Sprintf("packer-softlayer-%s", strconv.FormatInt(time.Now().Unix(), 10))
 	}
 
 	if self.config.InstanceDomain == "" {
